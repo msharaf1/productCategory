@@ -33,7 +33,8 @@ public class Category {
     private List<Product> products;
 
     public Category() {
-
+        this.createdAt = new Date();
+        this.updatedAt = new Date();
     }
 
     public Long getId() {
